@@ -1,0 +1,35 @@
+.header {
+  background-color: #2b2b2b;
+  color: snow;
+  padding: 40px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar__item {
+  padding: .8rem;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.navbar__item:hover {
+  background-color: snow;
+  color: #2b2b2b;
+  border-radius: 4px;
+}
+
+.navbar__link {
+  font-size: 1.4em;
+  line-height: 1;
+}
