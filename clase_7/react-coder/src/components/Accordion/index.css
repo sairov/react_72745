@@ -1,0 +1,26 @@
+.accordion {
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 24px;
+  width: 400px;
+}
+
+.accordion__header {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__header svg {
+  cursor: pointer;
+}
+
+
+.accordion__content--close {
+  display: none;
+}
+
+.accordion__content--open {
+  display: block;
+}

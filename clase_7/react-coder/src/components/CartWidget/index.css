@@ -1,0 +1,7 @@
+.cart-widget {
+  position: relative;
+}
+
+.cart-widget__cart {
+  font-size: 40px;
+}

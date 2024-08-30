@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $raleway;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  align-items: center;
+}
+
+ul, ol, menu {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: $medium;
+}
+
+p {
+  font-family: $inter;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  cursor: pointer;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: $secondary;
+}
