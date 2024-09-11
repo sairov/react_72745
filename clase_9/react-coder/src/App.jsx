@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />}/>
           <Route exact path='/tienda' element={<Store />}/>
-          <Route exact path='/tienda/:id' element={<Store />}/>
+          <Route exact path='/tienda/categoria/:id' element={<Store />}/>
           <Route exact path='/detalle/:id' element={<Detail />}/>
         </Routes>
       </BaseLayout>

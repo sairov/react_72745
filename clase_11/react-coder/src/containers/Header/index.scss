@@ -1,0 +1,32 @@
+.header {
+  background-color: #2b2b2b;
+  color: $white;
+  padding: 40px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__item {
+    padding: .8rem;
+    transition: all .3s linear;
+    cursor: pointer;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+      border-radius: 4px;
+    }
+  }
+
+}

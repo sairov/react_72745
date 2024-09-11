@@ -1,0 +1,68 @@
+.item {
+  &__picture {
+    $self: &;
+    @include flex(row, space-around, center);
+    position: relative;
+
+    &--pill {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: $small;
+      font-weight: 600;
+      background-color: $lighter;
+      color: $white;
+      padding: 1rem 2rem;
+    }
+
+    &--img {
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      object-fit: contain;
+      animation: fade 0.7s;
+    }
+
+    &--img--2 {
+      display: none;
+    }
+
+    &:hover .item__picture--img--1 {
+      display: none;
+    }
+    &:hover .item__picture--img--2 {
+      animation: fade 0.7s;
+      display: block;
+    }
+  }
+
+  a {
+    font-size: inherit;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__info {
+    font-family: $inter;
+    padding: 2rem;
+    @include flex(column, center, flex-start);
+    gap: 1rem;
+    &--title {
+      font-size: $xsmall;
+      font-weight: 400;
+    }
+    &--item {
+      font-size: $medium;
+      font-weight: bold;
+    }
+    &--price {
+      font-size: $small;
+    }
+    &--dues {
+      color: $primary;
+      font-size: $xsmall;
+      font-weight: bold;
+    }
+  }
+}
