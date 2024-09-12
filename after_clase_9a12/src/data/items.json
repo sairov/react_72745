@@ -1,0 +1,214 @@
+[
+  {
+   "id": 1,
+   "category": "starwars",
+   "licence": "Star Wars",
+   "name": "Baby Yoda Blueball",
+   "description": "Figura coleccionable de Baby Yoda (Grogu) - The Mandalorian Saga, edición limitada.",
+   "img": {
+    "front": "/star-wars/baby-yoda-1.webp",
+    "back": "/star-wars/baby-yoda-box.webp"
+   },
+   "sku": "STW001001",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 11,
+   "type": "dark"
+
+  },
+  {
+   "id": 2,
+   "category": "starwars",
+   "licence": "Star Wars",
+   "name": "Boba Fett Fighter",
+   "description": "Figura coleccionable de Boba Fett Fighter - The Mandalorian Saga.",
+   "img": {
+    "front": "/star-wars/bobbafeth-1.webp",
+    "back": "/star-wars/bobbafeth-box.webp"
+   },
+   "sku": "STW001002",
+   "price": 1799.99,
+   "dues": 6,
+   "stock": 8,
+   "sells": 5,
+   "type": "dark"
+
+  },
+  {
+   "id": 3,
+   "category": "starwars",
+   "licence": "Star Wars",
+   "name": "Luke Skylwalker & Grogu",
+   "description": "Figura coleccionable de Luke Skylwalker & Grogu - The Mandalorian Saga.",
+   "img": {
+    "front": "/star-wars/luke-1.webp",
+    "back": "/star-wars/luke-box.webp"
+   },
+   "sku": "STW001003",
+   "price": 1799.99,
+   "dues": 6,
+   "stock": 8,
+   "sells": 5
+  },
+  {
+   "id": 4,
+   "category": "starwars",
+   "licence": "Star Wars",
+   "name": "Stormtrooper Lightsaber",
+   "description": "Figura coleccionable de Stormtrooper Lightsaber - Star Wars Saga.",
+   "img": {
+    "front": "/star-wars/trooper-1.webp",
+    "back": "/star-wars/trooper-box.webp"
+   },
+   "sku": "STW001004",
+   "price": 1799.99,
+   "dues": 6,
+   "stock": 8,
+   "sells": 17
+  },
+  {
+   "id": 5,
+   "category": "pokemon",
+   "licence": "Pokemon",
+   "name": "Charmander Smiley",
+   "description": "Figura coleccionable de Charmander - Pokemon Saga.",
+   "img": {
+    "front": "/pokemon/charmander-1.webp",
+    "back": "/pokemon/charmander-box.webp"
+   },
+   "sku": "PKM001001",
+   "price": 1799.99,
+   "dues": 6,
+   "stock": 8,
+   "sells": 5
+  },
+  {
+   "id": 6,
+   "category": "pokemon",
+   "licence": "Pokemon",
+   "name": "Dragonite Hi!",
+   "description": "Figura coleccionable de Dragonite - Pokemon Saga.",
+   "img": {
+    "front": "/pokemon/dragonite-1.webp",
+    "back": "/pokemon/dragonite-box.webp"
+   },
+   "sku": "PKM001002",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 13
+  },
+  {
+   "id": 7,
+   "category": "pokemon",
+   "licence": "Pokemon",
+   "name": "Pidgeotto Flying",
+   "description": "Figura coleccionable de Pidgeotto - Pokemon Saga.",
+   "img": {
+    "front": "/pokemon/pidgeotto-1.webp",
+    "back": "/pokemon/pidgeotto-box.webp"
+   },
+   "sku": "PKM00103",
+   "price": 1799.99,
+   "dues": 9,
+   "stock": 8,
+   "sells": 17
+  },
+  {
+   "id": 8,
+   "category": "pokemon",
+   "licence": "Pokemon",
+   "name": "Pikachu Smiley",
+   "description": "Figura coleccionable de Pikachu - Pokemon Saga.",
+   "img": {
+    "front": "/pokemon/pikachu-1.webp",
+    "back": "/pokemon/pikachu-box.webp"
+   },
+   "sku": "PKM001004",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 5
+  },
+  {
+   "id": 9,
+   "category": "pokemon",
+   "licence": "Pokemon",
+   "name": "Vulpix Fancy",
+   "description": "Figura coleccionable de Vulpix - Pokemon Saga.",
+   "img": {
+    "front": "/pokemon/vulpix-1.webp",
+    "back": "/pokemon/vulpix-box.webp"
+   },
+   "sku": "PKM001005",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 5
+  },
+  {
+   "id": 10,
+   "category": "harrypotter",
+   "licence": "Harry Potter",
+   "name": "Harry Potter & Hegwid",
+   "description": "Figura coleccionable de Harry Potter & Hegwid - Harry Potter Saga.",
+   "img": {
+    "front": "/harry-potter/harry-1.webp",
+    "back": "/harry-potter/harry-box.webp"
+   },
+   "sku": "HPT001001",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 5
+  },
+  {
+   "id": 11,
+   "category": "harrypotter",
+   "licence": "Harry Potter",
+   "name": "Herminione Ball Dress",
+   "description": "Figura coleccionable de Herminione - Harry Potter Saga.",
+   "img": {
+    "front": "/harry-potter/hermione-1.webp",
+    "back": "/harry-potter/hermione-box.webp"
+   },
+   "sku": "HPT001002",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 5
+  },
+  {
+   "id": 12,
+   "category": "harrypotter",
+   "licence": "Harry Potter",
+   "name": "Luna Lovegood Lion Mask",
+   "description": "Figura coleccionable de Luna Lovegood - Harry Potter Saga.",
+   "img": {
+    "front": "/harry-potter/luna-1.webp",
+    "back": "/harry-potter/luna-box.webp"
+   },
+   "sku": "HPT001003",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 8,
+   "sells": 17
+  },
+  {
+   "id": 13,
+   "category": "harrypotter",
+   "licence": "Harry Potter",
+   "name": "Snape Patronus",
+   "description": "Figura coleccionable de Snape Patronus - Harry Potter Saga.",
+   "img": {
+    "front": "/harry-potter/snape-patronus-1.webp",
+    "back": "/harry-potter/snape-patronus-box.webp"
+   },
+   "sku": "HPT001004",
+   "price": 1799.99,
+   "dues": 3,
+   "stock": 13,
+   "sells": 5
+  }
+ ]

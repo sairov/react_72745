@@ -1,0 +1,44 @@
+footer {
+  margin-top: 4rem;
+  background-color: $black;
+  padding: 9rem 2rem 4rem;
+
+  section {
+    margin: auto;
+    max-width: 1440px;
+    @include flex(row, space-between, center);
+    picture {
+      max-width: 300px;
+      img {
+        width: 100%;
+      }
+    }
+    .navbar {
+      &__list {
+        @include flex(column, center, space-between);
+        gap: 0.2rem;
+      }
+
+      &__item {
+        font-family: $raleway;
+        font-weight: $medium;
+        color: $white;
+        @include bg-transition;
+        a {
+          display: inline-block;
+          width: 100%;
+          padding: 0.5rem;
+        }
+        &:hover {
+          @include bg-hover($white, inherit);
+        }
+      }
+    }
+  }
+  .copy {
+    margin-top: 2rem;
+    color: $white;
+    text-align: center;
+    font-size: $medium;
+  }
+}
