@@ -1,6 +1,6 @@
 const Item = ({ name, img, price, category, dues, href = '#', tag}) => {
     return(
-      <article class="item">
+      <article className="item">
         <a href={href}>
           <picture className="item__picture">
             <span className="item__picture--pill">{tag}</span>
